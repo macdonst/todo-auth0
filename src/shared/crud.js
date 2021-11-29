@@ -20,9 +20,6 @@ async function read(accountID) {
 async function upsert(accountID, {id = nanoid(), content, completed = false, created_at = Date.now(), updated_at = Date.now()}) {
     if (accountID) {
         const todos = (await read(accountID)).filter(todo => todo.id !== id)
-
-        console.log(completed)
-        console.log(typeof completed)
         await data.set({
             table: 'todos',
             key: accountID,
