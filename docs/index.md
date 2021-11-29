@@ -534,7 +534,7 @@ exports.handler = arc.http.async(auth, http)
 
 Congrats you now have a functional todo app! Go try it out.
 
-Psst! Want me to blow your mind? Try disabling JavaScript on your browser ([Chrome](https://developer.chrome.com/docs/devtools/javascript/disable/#:~:text=Open%20Chrome%20DevTools.,to%20open%20the%20Command%20Menu.&text=Start%20typing%20javascript%20%2C%20select%20Disable,JavaScript%20is%20now%20disabled.), [Firefox](https://www.lifewire.com/disable-javascript-in-firefox-446039), [Safari](https://www.lifewire.com/disable-javascript-in-safari-4103708) and see what happens. The site still works because there is no client side JavaScript.
+Psst! Want me to blow your mind? Try disabling JavaScript on your browser ([Chrome](https://developer.chrome.com/docs/devtools/javascript/disable/#:~:text=Open%20Chrome%20DevTools.,to%20open%20the%20Command%20Menu.&text=Start%20typing%20javascript%20%2C%20select%20Disable,JavaScript%20is%20now%20disabled.), [Firefox](https://www.lifewire.com/disable-javascript-in-firefox-446039), [Safari](https://www.lifewire.com/disable-javascript-in-safari-4103708) and see what happens. The site still works because there is no client side JavaScript. Next time we will show how to progressively enhance the app to add more features while maintaining a base level of functionality.
 
 ## Next Steps
 
